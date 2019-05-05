@@ -1,6 +1,7 @@
 # Code your solution here!
 
 def run_guessing_game()
+  puts "Guess number"
   user_input = gets.chomp
   random_number = rand(1..100)
   
