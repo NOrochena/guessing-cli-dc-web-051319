@@ -8,5 +8,3 @@ def run_guessing_game()
   puts user_input
   puts random_number
 end
-
-run_guessing_game
