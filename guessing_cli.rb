@@ -5,7 +5,7 @@ def run_guessing_game()
   user_input = gets.chomp
   random_number = rand(1..6)
   
-  case user_input
-    when
+  if user_input == "exit"
+    puts "Goodbye!"
   end
 end
